@@ -1,0 +1,31 @@
+to get complete menu item
+   method:get
+   url:localhost:8000/hotel/menu
+
+to get a speific item
+  method:get
+  url:localhost:8000/hotel/menu/4  
+
+to add a item 
+method:post  
+url:localhost:8000/hotel/menu
+
+to dlt an item 
+method:delete
+URL:localhost:8000/hotel/menu/3
+
+to update an item
+method:put
+url:localhost:8000/hotel/menu/1
+
+to get an item of category
+method:get
+url:localhost:8000/hotel/menu?category=veg or non veg
+
+to give a limiy
+method:get
+url:localhost:8000/hotel/menu?limit=5
+
+to get an item of category with specf limit
+mrthod:get
+url:localhost:8000/hotel/menu?category=veg limit=3

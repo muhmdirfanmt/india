@@ -1,0 +1,18 @@
+to create a dish object
+method:post
+url:localhost:8000/h/dish
+data={"name":cb,"category":non-veg}
+
+
+to get complete list
+method:get
+url:localhost:8000/h/dish
+
+to get specific dish
+method:get
+url:locxalhost:8000/h/dish/1
+
+to add review for specefic dish
+method:post
+url:mdishes/3/add_review
+data=review,rating
